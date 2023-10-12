@@ -49,5 +49,7 @@ const arr = [
   23, 54, 56, 47, 3, 2, 414, 5, 436, 36, 47, 34, 3421, 45, 68, 43, 7, 73, 2748,
   10, 29, 12, 929, 2, 92, 292, 9, 445, 3, 35, 8, 2, 384, 71, 21,
 ];
-console.log(arr.length);
+console.log("%coriginal array : ", "font-size: 1.3rem; color: black;");
+console.log(arr);
+console.log("%csorted : ", "font-size: 1.3rem; color: green;");
 console.log(mergesort(arr));
